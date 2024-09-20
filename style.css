@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    background-image: url(assets/background_2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.position {
+    position: absolute;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family: poppins;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+
+}
+
+.nav-links a:hover {
+    color: crimson; 
+    transition: color 0.3s;
+}
+
+section {
+    padding: 50px;
+}
+
+.about_merah a {
+    color: crimson;
+    transition: 0.3s;
+}
+
+.about_merah a:hover {
+    color: white;
+}
+
+.home {
+    position: relative;
+    width: 30cm;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: poppins;
+}
+
+
+.img_home {
+    width: 730px;
+    height: 730px;
+    padding-top: 200px;
+}
+
+.home_text {
+    padding-right: 100px;
+}
+
+.home span {
+    padding: 5px 25 px;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.home h1 {
+    font-family:calibri;
+    font-size:50px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.home p {
+    font-size: 12px;
+}
+
+.about {
+        position: relative;
+        width: 30cm;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        font-family: poppins;
+    
+}
+
+.about h1 {
+    font-family:calibri;
+    font-size:50px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.contact {
+    background-color: rgba(0, 0, 0, 0.322);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 100%;
+    margin-left: 4%;
+}
+
+.about p {
+    font-size: 12px;
+}
+
+.contact h1 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: poppins;
+}
+
+.contact p {
+    text-align: center;
+    font-family: 12px;
+    color: white;
+}
+
+
+.icon{
+  display: flex;
+  justify-content: center;
+}
+
+.icon a i {
+    height: 20px;
+    width: 20px;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.icon a i:hover {
+    color: crimson;
+}
+
+.menu_footer {
+    display: flex;
+    justify-content: center;
+}
+
+.menu_footer a {
+    width: auto;
+    height: 20px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    transition: 0.3s
+}
+
+.menu_footer a:hover {
+    color: crimson;
+  
+}
+.copyright {
+    font-size: 15px;
+}
+
+.copyright span {
+    font-weight: 600;
+}
